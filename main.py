@@ -57,7 +57,7 @@ def solve(board):
     # define base case -> board is full
     empty = get_empty_positions(board)
     if not empty:
-        return True # splution find -> full board
+        return True # solution found -> full board
     else:
         row, col = empty
 
